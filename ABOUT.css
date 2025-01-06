@@ -83,3 +83,9 @@ body {
 .contact a:hover {
     text-decoration: underline;
 }
+.king{
+    color: #0077cc;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
