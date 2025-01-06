@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    height: 700px;
+}
+
+.image-container {
+    flex: 1;
+    background: url('IMAGES/IMG-20241213-WA0082.jpg') no-repeat center center;
+    background-size: cover;
+    height: 800px;
+    filter: blur(1px);
+    opacity: 1;
+  
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.about-header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.about-header h1 {
+    font-size: 2.5rem;
+    color: #0077cc;
+}
+
+.about-header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.about-content {
+    line-height: 1.8;
+}
+
+.about-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-content ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.highlight {
+    color: #0077cc;
+    font-weight: bold;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact p {
+    font-size: 1rem;
+}
+
+.contact a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
