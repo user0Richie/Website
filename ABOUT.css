@@ -17,7 +17,7 @@ body {
 
 .image-container {
     flex: 1;
-    background: url('IMAGES/IMG-20241213-WA0082.jpg') no-repeat center center;
+    background: url(IMG-20241213-WA0082.jpg) no-repeat center center;
     background-size: cover;
     height: 800px;
     filter: blur(1px);
